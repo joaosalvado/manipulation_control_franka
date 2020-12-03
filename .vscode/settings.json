@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ohmy/my_workspace/TLC/udemy/turtlebot3_catkin_ws/devel/lib/python3/dist-packages",
+        "/home/ohmy/my_workspace/TLC/ros_tutorial/services_catkin/devel/lib/python3/dist-packages",
+        "/home/ohmy/my_workspace/TLC/ros_tutorial/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/ohmy/my_workspace/TLC/udemy/ros_udemy/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/ohmy/my_workspace/TLC/udemy/turtlebot3_catkin_ws/devel/include/**",
+                "/home/ohmy/my_workspace/TLC/ros_tutorial/services_catkin/devel/include/**",
+                "/home/ohmy/my_workspace/TLC/ros_tutorial/catkin_ws/devel/include/**",
+                "/home/ohmy/my_workspace/TLC/udemy/ros_udemy/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/ohmy/my_workspace/TLC/ros_tutorial/catkin_ws/src/beginner_tutorials/include/**",
+                "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers/include/**",
+                "/home/ohmy/my_workspace/TLC/udemy/ros_udemy/src/ros_essentials_cpp/include/**",
+                "/home/ohmy/my_workspace/TLC/udemy/turtlebot3_catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/ohmy/my_workspace/TLC/udemy/turtlebot3_catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/home/ohmy/my_workspace/TLC/udemy/turtlebot3_catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

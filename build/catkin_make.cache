@@ -1,0 +1,2 @@
+my_simple_controllers:robot_models/franka_description:robot_models/three_dof_planar
+-DCATKIN_DEVEL_PREFIX=/home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel -DCMAKE_INSTALL_PREFIX=/home/ohmy/my_workspace/github_joao/manipulation_control_franka/install -G Unix Makefiles
