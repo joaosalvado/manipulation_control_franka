@@ -8,5 +8,54 @@
       Simple forward kinematic controller that publishes end effector pose to TF
     </description>
   </class>
-  
+
+  <class name="my_simple_controllers/StandStillController" 
+         type="my_simple_controllers::StandStillController" 
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      Controller that tries to mantain arm standing still with PD-controller
+    </description>
+  </class>
+
+  <class name="my_simple_controllers/TorqueController" 
+         type="my_simple_controllers::TorqueController" 
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      Torque Controller that applies Newton-Euler algorithm to derive dynamics in real time
+    </description>
+  </class>
+
+ <class name="my_simple_controllers/TorqueControllerKDL" 
+         type="my_simple_controllers::TorqueControllerKDL" 
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      Torque Controller that applies Newton-Euler algorithm to derive dynamics in real time using KDL
+    </description>
+  </class>
+
+  <class name="my_simple_controllers/TorqueControlStandstill" 
+         type="my_simple_controllers::TorqueControlStandstill" 
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      Torque Controller that applies Newton-Euler algorithm to derive dynamics in real time using KDL
+    </description>
+  </class>
+
+   <class name="my_simple_controllers/PDstandstill" 
+         type="my_simple_controllers::PDstandstill" 
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      PD control standstill
+    </description>
+  </class>
+
+  <class name="my_simple_controllers/PDperiodic" 
+         type="my_simple_controllers::PDperiodic" 
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      PD control periodic
+    </description>
+  </class>
+
+
 </library>

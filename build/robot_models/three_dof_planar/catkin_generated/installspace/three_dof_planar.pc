@@ -1,4 +1,4 @@
-prefix=/home/ohmy/my_workspace/github_joao/manipulation_control_franka/install
+prefix=/home/ohmy/js_ws/github_joao/manipulation_control_franka/install
 
 Name: three_dof_planar
 Description: Description of three_dof_planar

@@ -1,0 +1,20 @@
+standstill_controller:
+    type: my_simple_controllers/StandStillController
+
+state_controller:
+    type: my_simple_controllers/StateController
+
+torque_controller:
+    type: my_simple_controllers/TorqueController
+
+torque_controller_periodic:
+    type: my_simple_controllers/TorqueControllerKDL
+
+torque_controller_standstill:
+    type: my_simple_controllers/TorqueControlStandstill
+
+pd_control_standstill:
+    type: my_simple_controllers/PDstandstill   
+
+pd_control_periodic:
+    type: my_simple_controllers/PDperiodic   

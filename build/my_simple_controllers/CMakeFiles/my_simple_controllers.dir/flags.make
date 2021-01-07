@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"my_simple_controllers\" -Dmy_simple_controllers_EXPORTS
 
-CXX_INCLUDES = -I/home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

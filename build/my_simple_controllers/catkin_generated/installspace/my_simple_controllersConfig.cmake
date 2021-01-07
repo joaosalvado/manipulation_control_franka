@@ -67,14 +67,14 @@ set(my_simple_controllers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_simple_controllers_SOURCE_PREFIX /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers)
-  set(my_simple_controllers_DEVEL_PREFIX /home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel)
+  set(my_simple_controllers_SOURCE_PREFIX /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers)
+  set(my_simple_controllers_DEVEL_PREFIX /home/ohmy/js_ws/github_joao/manipulation_control_franka/devel)
   set(my_simple_controllers_INSTALL_PREFIX "")
   set(my_simple_controllers_PREFIX ${my_simple_controllers_DEVEL_PREFIX})
 else()
   set(my_simple_controllers_SOURCE_PREFIX "")
   set(my_simple_controllers_DEVEL_PREFIX "")
-  set(my_simple_controllers_INSTALL_PREFIX /home/ohmy/my_workspace/github_joao/manipulation_control_franka/install)
+  set(my_simple_controllers_INSTALL_PREFIX /home/ohmy/js_ws/github_joao/manipulation_control_franka/install)
   set(my_simple_controllers_PREFIX ${my_simple_controllers_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(my_simple_controllers_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include " STREQUAL " ")
+if(NOT "include;/usr/local/include/eigen3 " STREQUAL " ")
   set(my_simple_controllers_INCLUDE_DIRS "")
-  set(_include_dirs "include")
+  set(_include_dirs "include;/usr/local/include/eigen3")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ohmy/my_workspace/github_joao/manipulation_control_franka/install/lib;/home/ohmy/my_workspace/TLC/udemy/turtlebot3_catkin_ws/devel/lib;/home/ohmy/my_workspace/TLC/ros_tutorial/services_catkin/devel/lib;/home/ohmy/my_workspace/TLC/ros_tutorial/catkin_ws/devel/lib;/home/ohmy/my_workspace/TLC/udemy/ros_udemy/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ohmy/js_ws/github_joao/manipulation_control_franka/install/lib;/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib;/home/ohmy/js_ws/tlc/udemy/turtlebot3_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -185,7 +185,7 @@ foreach(t ${my_simple_controllers_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "controller_interface;kdl_parser;roscpp;visualization_msgs")
+set(depends "controller_interface;kdl_parser;roscpp;visualization_msgs;tf2;tf2_ros;eigen_conversions")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

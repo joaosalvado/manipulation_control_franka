@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.0.2)
 project(my_simple_controllers)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+#add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -12,10 +12,18 @@ find_package(catkin REQUIRED COMPONENTS
   kdl_parser
   roscpp
   visualization_msgs
+  cmake_modules
+  Eigen3
+  tf2
+  tf2_ros
+  eigen_conversions
 )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
+#find_package(cmake_modules REQUIRED)
+## find_package(Boost REQUIRED system filesystem date_time thread)
+#find_package(Eigen3 REQUIRED)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -106,7 +114,8 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES my_simple_controllers
-  CATKIN_DEPENDS controller_interface kdl_parser roscpp visualization_msgs
+  CATKIN_DEPENDS controller_interface kdl_parser roscpp visualization_msgs tf2 tf2_ros eigen_conversions
+  DEPENDS EIGEN3
 #  DEPENDS system_lib
 )
 
@@ -119,12 +128,21 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
+  ${EIGEN_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
 add_library(${PROJECT_NAME}
+  src/torque_control_standstill.cpp
+  src/PD_periodic.cpp
+  src/PD_standstill.cpp
+  src/torque_control_kdl.cpp
+  src/kdl_conv.cpp
   src/state_controller.cpp
+  src/standstill_controller.cpp
+  src/torque_controller.cpp
 )
+target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries

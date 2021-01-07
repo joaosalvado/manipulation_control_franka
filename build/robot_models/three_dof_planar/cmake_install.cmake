@@ -1,8 +1,8 @@
-# Install script for directory: /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/robot_models/three_dof_planar
+# Install script for directory: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/robot_models/three_dof_planar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ohmy/js_ws/github_joao/manipulation_control_franka/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/robot_models/three_dof_planar/catkin_generated/installspace/three_dof_planar.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/robot_models/three_dof_planar/catkin_generated/installspace/three_dof_planar.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/three_dof_planar/cmake" TYPE FILE FILES
-    "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/robot_models/three_dof_planar/catkin_generated/installspace/three_dof_planarConfig.cmake"
-    "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/robot_models/three_dof_planar/catkin_generated/installspace/three_dof_planarConfig-version.cmake"
+    "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/robot_models/three_dof_planar/catkin_generated/installspace/three_dof_planarConfig.cmake"
+    "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/robot_models/three_dof_planar/catkin_generated/installspace/three_dof_planarConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/three_dof_planar" TYPE FILE FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/robot_models/three_dof_planar/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/three_dof_planar" TYPE FILE FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/src/robot_models/three_dof_planar/package.xml")
 endif()
 

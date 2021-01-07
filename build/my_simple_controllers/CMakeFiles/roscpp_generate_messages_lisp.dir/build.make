@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src
+CMAKE_SOURCE_DIR = /home/ohmy/js_ws/github_joao/manipulation_control_franka/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build
+CMAKE_BINARY_DIR = /home/ohmy/js_ws/github_joao/manipulation_control_franka/build
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/build: roscpp
 .PHONY : my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ohmy/js_ws/github_joao/manipulation_control_franka/src /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers /home/ohmy/js_ws/github_joao/manipulation_control_franka/build /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_simple_controllers/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

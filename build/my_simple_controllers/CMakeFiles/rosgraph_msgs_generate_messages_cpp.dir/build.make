@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src
+CMAKE_SOURCE_DIR = /home/ohmy/js_ws/github_joao/manipulation_control_franka/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build
+CMAKE_BINARY_DIR = /home/ohmy/js_ws/github_joao/manipulation_control_franka/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build: 
 .PHONY : my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ohmy/js_ws/github_joao/manipulation_control_franka/src /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers /home/ohmy/js_ws/github_joao/manipulation_control_franka/build /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_simple_controllers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/robot_models/franka_description
+# Install script for directory: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/robot_models/franka_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ohmy/js_ws/github_joao/manipulation_control_franka/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/robot_models/franka_description/catkin_generated/installspace/franka_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/robot_models/franka_description/catkin_generated/installspace/franka_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_description/cmake" TYPE FILE FILES
-    "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/robot_models/franka_description/catkin_generated/installspace/franka_descriptionConfig.cmake"
-    "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/robot_models/franka_description/catkin_generated/installspace/franka_descriptionConfig-version.cmake"
+    "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/robot_models/franka_description/catkin_generated/installspace/franka_descriptionConfig.cmake"
+    "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/robot_models/franka_description/catkin_generated/installspace/franka_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_description" TYPE FILE FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/robot_models/franka_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_description" TYPE FILE FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/src/robot_models/franka_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_description" TYPE DIRECTORY FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/robot_models/franka_description/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_description" TYPE DIRECTORY FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/src/robot_models/franka_description/meshes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_description" TYPE DIRECTORY FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/robot_models/franka_description/robots")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/franka_description" TYPE DIRECTORY FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/src/robot_models/franka_description/robots")
 endif()
 

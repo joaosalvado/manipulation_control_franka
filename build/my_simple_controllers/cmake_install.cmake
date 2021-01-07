@@ -1,8 +1,8 @@
-# Install script for directory: /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers
+# Install script for directory: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ohmy/js_ws/github_joao/manipulation_control_franka/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers/catkin_generated/installspace/my_simple_controllers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers/catkin_generated/installspace/my_simple_controllers.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_simple_controllers/cmake" TYPE FILE FILES
-    "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers/catkin_generated/installspace/my_simple_controllersConfig.cmake"
-    "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers/catkin_generated/installspace/my_simple_controllersConfig-version.cmake"
+    "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers/catkin_generated/installspace/my_simple_controllersConfig.cmake"
+    "/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers/catkin_generated/installspace/my_simple_controllersConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_simple_controllers" TYPE FILE FILES "/home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_simple_controllers" TYPE FILE FILES "/home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/package.xml")
 endif()
 

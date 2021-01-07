@@ -11,7 +11,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel}
+: ${_CATKIN_SETUP_DIR:=/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

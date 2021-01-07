@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock_main.so -o ../../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/lib ../../lib/libgmock.so ../../lib/libgtest.so -lpthread 
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgmock_main.so -o ../../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/lib ../../lib/libgmock.so ../../lib/libgtest.so -lpthread 

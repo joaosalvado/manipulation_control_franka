@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in '/home/ohmy/my_workspace/TLC/udemy/turtlebot3_catkin_ws/devel;/home/ohmy/my_workspace/TLC/ros_tutorial/services_catkin/devel;/home/ohmy/my_workspace/TLC/ros_tutorial/catkin_ws/devel;/home/ohmy/my_workspace/TLC/udemy/ros_udemy/devel;/opt/ros/noetic'.split(';'):
+    for workspace in '/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel;/home/ohmy/js_ws/tlc/udemy/turtlebot3_ws/devel;/opt/ros/noetic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python3/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel/env.sh')
+code = generate_environment_script('/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/env.sh')
 
-output_filename = '/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

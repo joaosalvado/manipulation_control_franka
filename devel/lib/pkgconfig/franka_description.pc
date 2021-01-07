@@ -1,4 +1,4 @@
-prefix=/home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel
+prefix=/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel
 
 Name: franka_description
 Description: Description of franka_description

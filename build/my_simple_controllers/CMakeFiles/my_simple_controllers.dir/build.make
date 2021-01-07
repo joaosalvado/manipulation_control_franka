@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src
+CMAKE_SOURCE_DIR = /home/ohmy/js_ws/github_joao/manipulation_control_franka/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build
+CMAKE_BINARY_DIR = /home/ohmy/js_ws/github_joao/manipulation_control_franka/build
 
 # Include any dependencies generated for this target.
 include my_simple_controllers/CMakeFiles/my_simple_controllers.dir/depend.make
@@ -57,42 +57,186 @@ include my_simple_controllers/CMakeFiles/my_simple_controllers.dir/progress.make
 # Include the compile flags for this target's objects.
 include my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
 
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_standstill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_standstill.cpp
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.i"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_standstill.cpp > CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.i
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.s"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_standstill.cpp -o CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.s
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_periodic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_periodic.cpp
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.i"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_periodic.cpp > CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.i
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.s"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_periodic.cpp -o CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.s
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_standstill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_standstill.cpp
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.i"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_standstill.cpp > CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.i
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.s"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/PD_standstill.cpp -o CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.s
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_kdl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_kdl.cpp
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.i"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_kdl.cpp > CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.i
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.s"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_control_kdl.cpp -o CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.s
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/kdl_conv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/kdl_conv.cpp
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.i"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/kdl_conv.cpp > CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.i
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.s"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/kdl_conv.cpp -o CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.s
+
 my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
-my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o: /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o"
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o -c /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp
 
 my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.i"
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp > CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.i
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp > CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.i
 
 my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.s"
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp -o CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.s
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/state_controller.cpp -o CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.s
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/standstill_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/standstill_controller.cpp
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.i"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/standstill_controller.cpp > CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.i
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.s"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/standstill_controller.cpp -o CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.s
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.o: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/flags.make
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.o: /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.o"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.o -c /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_controller.cpp
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.i"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_controller.cpp > CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.i
+
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.s"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers/src/torque_controller.cpp -o CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.s
 
 # Object files for target my_simple_controllers
 my_simple_controllers_OBJECTS = \
-"CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o"
+"CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.o" \
+"CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.o" \
+"CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.o" \
+"CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.o" \
+"CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.o" \
+"CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o" \
+"CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.o" \
+"CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.o"
 
 # External object files for target my_simple_controllers
 my_simple_controllers_EXTERNAL_OBJECTS =
 
-/home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o
-/home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/build.make
-/home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so"
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_simple_controllers.dir/link.txt --verbose=$(VERBOSE)
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_standstill.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_periodic.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/PD_standstill.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_control_kdl.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/kdl_conv.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/state_controller.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/standstill_controller.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/src/torque_controller.cpp.o
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/build.make
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libkdl_parser.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/liburdf.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libroslib.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/librospack.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libactionlib.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libroscpp.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/librosconsole.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libtf2.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libeigen_conversions.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/liborocos-kdl.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/librostime.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so: my_simple_controllers/CMakeFiles/my_simple_controllers.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ohmy/js_ws/github_joao/manipulation_control_franka/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library /home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so"
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_simple_controllers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-my_simple_controllers/CMakeFiles/my_simple_controllers.dir/build: /home/ohmy/my_workspace/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so
+my_simple_controllers/CMakeFiles/my_simple_controllers.dir/build: /home/ohmy/js_ws/github_joao/manipulation_control_franka/devel/lib/libmy_simple_controllers.so
 
 .PHONY : my_simple_controllers/CMakeFiles/my_simple_controllers.dir/build
 
 my_simple_controllers/CMakeFiles/my_simple_controllers.dir/clean:
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -P CMakeFiles/my_simple_controllers.dir/cmake_clean.cmake
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers && $(CMAKE_COMMAND) -P CMakeFiles/my_simple_controllers.dir/cmake_clean.cmake
 .PHONY : my_simple_controllers/CMakeFiles/my_simple_controllers.dir/clean
 
 my_simple_controllers/CMakeFiles/my_simple_controllers.dir/depend:
-	cd /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src /home/ohmy/my_workspace/github_joao/manipulation_control_franka/src/my_simple_controllers /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers /home/ohmy/my_workspace/github_joao/manipulation_control_franka/build/my_simple_controllers/CMakeFiles/my_simple_controllers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ohmy/js_ws/github_joao/manipulation_control_franka/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ohmy/js_ws/github_joao/manipulation_control_franka/src /home/ohmy/js_ws/github_joao/manipulation_control_franka/src/my_simple_controllers /home/ohmy/js_ws/github_joao/manipulation_control_franka/build /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers /home/ohmy/js_ws/github_joao/manipulation_control_franka/build/my_simple_controllers/CMakeFiles/my_simple_controllers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_simple_controllers/CMakeFiles/my_simple_controllers.dir/depend
 

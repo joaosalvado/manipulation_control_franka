@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ohmy/my_workspace/github_joao/manipulation_control_franka/install/setup.sh
+    local-name: /home/ohmy/js_ws/github_joao/manipulation_control_franka/install/setup.sh
