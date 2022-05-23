@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel;/home/ohmy/js_ws/tlc/udemy/turtlebot3_ws/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/ohmy/js_ws/github_joao/manipulation_control_franka/devel;/home/ohmy/js_ws/github_joao/chomp/devel;/home/ohmy/js_ws/tlc/udemy/turtlebot3_ws/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
