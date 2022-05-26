@@ -4,7 +4,7 @@
 * Dependencies List
 - Eigen3
 * Installation
-1. Install ROS Kinetic (Ubuntu 16) or Melodic (Ubunti 18)
+1. Install ROS Kinetic (Ubuntu 16), Melodic (Ubuntu 18), Noetic (Ubuntu 20)
 2. Install any missing dependencies
 3. Open a terminal:
 #+begin_src sh
@@ -21,6 +21,8 @@ roslaunch my_simple_controllers pd_control_periodic.launch
 roslaunch my_simple_controllers torque_control_stadnstill.launch
 roslaunch my_simple_controllers torque_control_periodic.launch
 #+end_src
+
+|[[file:videos/pd_standstill_final.gif]]   | [[file:videos/tc_standstill.mp4]]  |
 
 * Lincence
 <manipulation_control_franka implementation of a PD and torque controller for the Panda Franka Robot Arm Manipulator>
