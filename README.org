@@ -22,7 +22,11 @@ roslaunch my_simple_controllers torque_control_stadnstill.launch
 roslaunch my_simple_controllers torque_control_periodic.launch
 #+end_src
 
-|[[file:videos/pd_standstill_final.gif]]   | [[file:videos/tc_standstill.mp4]]  |
+| [[file:videos/pd_standstill_final.gif]] | [[file:videos/tc_standstill_final.gif]] |
+| [[file:videos/pd_periodic_final.gif]]   | [[file:videos/tc_periodic_final.gif]]   |
+Legend:
+| PD controller Standstill | Torque control Standstill |
+| PD controller Periodic   | Torque control Periodic   |
 
 * Lincence
 <manipulation_control_franka implementation of a PD and torque controller for the Panda Franka Robot Arm Manipulator>
