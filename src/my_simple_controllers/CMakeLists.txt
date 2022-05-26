@@ -13,7 +13,6 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   visualization_msgs
   cmake_modules
-  Eigen3
   tf2
   tf2_ros
   eigen_conversions
@@ -23,7 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 # find_package(Boost REQUIRED COMPONENTS system)
 #find_package(cmake_modules REQUIRED)
 ## find_package(Boost REQUIRED system filesystem date_time thread)
-#find_package(Eigen3 REQUIRED)
+# find_package(Eigen REQUIRED)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -115,7 +114,7 @@ catkin_package(
   INCLUDE_DIRS include
   LIBRARIES my_simple_controllers
   CATKIN_DEPENDS controller_interface kdl_parser roscpp visualization_msgs tf2 tf2_ros eigen_conversions
-  DEPENDS EIGEN3
+#  DEPENDS Eigen
 #  DEPENDS system_lib
 )
 
@@ -128,7 +127,7 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
-  ${EIGEN_INCLUDE_DIRS}
+ # ${Eigen_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -142,7 +141,8 @@ add_library(${PROJECT_NAME}
   src/standstill_controller.cpp
   src/torque_controller.cpp
 )
-target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES} )
+target_link_libraries(${PROJECT_NAME} 
+	${catkin_LIBRARIES} )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries

@@ -1,4 +1,40 @@
-#TITLE: Robot Manipulator Controllers
-#DESCRIPTION: This open-source code implements PD-controller and Torque Controller for the Panda Robotic arm.
+#+TITLE: Robot Manipulator Controllers
+#+DESCRIPTION: This open-source code implements PD-controller and Torque Controller for the Panda Robotic arm.
 
-(in progress)
+* Dependencies List
+- Eigen3
+* Installation
+1. Install ROS Kinetic (Ubuntu 16) or Melodic (Ubunti 18)
+2. Install any missing dependencies
+3. Open a terminal:
+#+begin_src sh
+cd ~/catkin_ws/src
+git clone git@github.com:joaosalvado/DiMOpt.git
+cd ../
+catkin_make
+source ~/catkin_ws/devel/setup.bash
+#+end_src
+* Demos
+#+begin_src sh
+roslaunch my_simple_controllers pd_control_stadnstill.launch
+roslaunch my_simple_controllers pd_control_periodic.launch
+roslaunch my_simple_controllers torque_control_stadnstill.launch
+roslaunch my_simple_controllers torque_control_periodic.launch
+#+end_src
+
+* Lincence
+<manipulation_control_franka implementation of a PD and torque controller for the Panda Franka Robot Arm Manipulator>
+Copyright (C) 2022 Joao Salvado
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

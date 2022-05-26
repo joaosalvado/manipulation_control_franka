@@ -1,8 +1,0 @@
-prefix=/home/ohmy/js_ws/github_joao/manipulation_control_franka/install
-
-Name: my_simple_controllers
-Description: Description of my_simple_controllers
-Version: 0.0.0
-Cflags: -I${prefix}/include -I/usr/local/include/eigen3
-Libs: -L${prefix}/lib -lmy_simple_controllers
-Requires: controller_interface kdl_parser roscpp visualization_msgs tf2 tf2_ros eigen_conversions

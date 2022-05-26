@@ -1,8 +1,0 @@
-prefix=/home/ohmy/js_ws/github_joao/manipulation_control_franka/install
-
-Name: three_dof_planar
-Description: Description of three_dof_planar
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
